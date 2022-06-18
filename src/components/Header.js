@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='header'>
        <div className='huddle'>
-        <img  className='message' src={iconmessages} alt="svg image" />
+        <img  className='message' src={iconmessages} alt />
         <h2 className='hud'>Huddle</h2>
       </div>
       <button className='try'>Try if for free</button>
