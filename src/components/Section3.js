@@ -6,7 +6,7 @@ import buttom from '../images/bg-section-bottom-desktop-2.svg'
 const Section = () => {
   return (
       <div className='section3'>
-      <img className='mock2' src={sec} alt/>
+      <img className='mock2' src={sec} alt=""/>
       <div className='section1'>
         <div className='grow'>
            <h2 className='head'>Your Users</h2>
@@ -15,9 +15,9 @@ const Section = () => {
                       in to your app, <br />  your users can start chatting immediately
         </p>
      </div>
-        <img className='mock' src={illu} alt />
+        <img className='mock' src={illu} alt="" />
       </div>
-          <img className='mock3' src={buttom} alt/>
+          <img className='mock3' src={buttom} alt=""/>
           
           <h1 className='com2'>Ready To Build Your Community</h1>
            <button className='getStarted2'>Get started for free</button>

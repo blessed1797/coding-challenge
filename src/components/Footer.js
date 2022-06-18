@@ -10,9 +10,9 @@ import {FaTwitterSquare} from 'react-icons/fa'
 const Footer = () => {
   return (
       <div className='footer'>
-          <img className='footer-top-img' src={sec} alt/>
+          <img className='footer-top-img' src={sec} alt=""/>
           <div className='footer-color'>
-               <img  className='message' src={iconmessages} alt />
+               <img  className='message' src={iconmessages} alt="" />
         <h2 className='hud2'>Huddle</h2>
         <div className='newsLetter'>
           <h3 className='newsl'>NEWSLETTER</h3>
@@ -33,11 +33,11 @@ const Footer = () => {
         </p>
         
         <div>
-          <img className='' src={phone} alt />
+          <img className='' src={phone} alt="" />
           <p className='p1'>phone: +1-543-123-4567</p>
         </div>
          <div>
-          <img className='' src={gmail} alt/>
+          <img className='' src={gmail} alt=""/>
           <p className='p1'>example@huddle.com</p>
         </div>
         
