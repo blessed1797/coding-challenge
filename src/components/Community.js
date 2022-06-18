@@ -12,7 +12,7 @@ const Community = () => {
           <div>
           <button className='getStarted'>Get started for free</button>
           </div>
-         <img  className='mockup' src={screenmockup} alt="" />
+         <img  className='mockup' src={screenmockup} alt="svg image" />
       </div>
   )
 }

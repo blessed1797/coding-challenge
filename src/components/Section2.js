@@ -5,7 +5,7 @@ const Section2 = () => {
   return (
       <div className='section2'>
         <div>
-            <img className='section-2' src={illu} />
+            <img className='section-2' src={illu} alt="svg image"/>
         </div>
           <div className='grow2'>
           <h2 className='head'>Flowing Conversation</h2>
