@@ -305,7 +305,8 @@ input {
 
 .mock4,
 .mock11,
-.mock6 {
+.mock6,
+.mock0 {
   display: none;
 }
 
@@ -483,6 +484,7 @@ input {
       border: none;
     }
     .mock0{
+      display: block;
       margin-top: 100px;
       margin-bottom: -10px;
     }
