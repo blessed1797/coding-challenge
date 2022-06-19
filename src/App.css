@@ -320,7 +320,7 @@ input {
   display: flex;
 }
 
-@media screen and (max-width: 375px), (max-width:360px), (max-width:414px) {
+@media screen and (max-width: 375px), (max-width:414px),(max-width:428px) {
   .header {
     margin: 20px;
   }
@@ -472,7 +472,7 @@ input {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px), (max-width:414px), (max-width:428px){
   .getStarted {
     margin-left: 100px;
     margin-top: 1rem;
