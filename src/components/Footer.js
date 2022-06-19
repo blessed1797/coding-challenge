@@ -4,13 +4,17 @@ import iconmessages from '../images/icon-messages2.svg';
 import gmail from '../images/icon-email.svg'
 import phone from '../images/icon-phone.svg'
 import { FaFacebookSquare, FaInstagram } from 'react-icons/fa'
-import {FaTwitterSquare} from 'react-icons/fa'
+import { FaTwitterSquare } from 'react-icons/fa'
+import sec2 from '../images/bg-footer-top-mobile.svg'
+
+
 
 
 const Footer = () => {
   return (
       <div className='footer'>
-          <img className='footer-top-img' src={sec} alt=""/>
+      <img className='footer-top-img' src={sec} alt="" />
+      <img className='mock0' src={sec2} alt="" />
           <div className='footer-color'>
                <img  className='message' src={iconmessages} alt="" />
         <h2 className='hud2'>Huddle</h2>
