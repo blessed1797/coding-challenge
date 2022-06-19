@@ -472,7 +472,7 @@ input {
   }
 }
 
-@media screen and (max-width: 375px), (max-width:414px), (max-width:428px){
+@media screen and (max-width: 375px), (max-width:414px), (max-width:428px), (max-width:450px), (max-width:450px){
   .getStarted {
     margin-left: 100px;
     margin-top: 1rem;
