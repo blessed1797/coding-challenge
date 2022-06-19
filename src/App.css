@@ -320,7 +320,7 @@ input {
   display: flex;
 }
 
-@media screen and (max-width: 375px) and (max-width:360px) {
+@media screen and (max-width: 375px), (max-width:360px) {
   .header {
     margin: 20px;
   }
