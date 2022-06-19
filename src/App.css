@@ -320,7 +320,7 @@ input {
   display: flex;
 }
 
-@media screen and (max-width: 375px), (max-width:360px) {
+@media screen and (max-width: 375px), (max-width:360px), (max-width:414px) {
   .header {
     margin: 20px;
   }
@@ -508,7 +508,7 @@ input {
   }
 
   .footer-color {
-    padding-left: 30px;
+    padding-right: 30px;
     border: 0;
   }
 
