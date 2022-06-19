@@ -24,7 +24,7 @@ const Footer = () => {
             Sign up to our weekly newsletter. We'll never send <br />
               you spam or pass on your email address</p>
             <div className='subs'>
-            <input type="text" />
+            <input className="input" type="text" />
             <div>
              <button className='head1'>Subscribe</button>
           </div>

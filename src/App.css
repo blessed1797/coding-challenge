@@ -138,7 +138,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 13px;
-  
+
 }
 
 
@@ -193,14 +193,16 @@ p {
   margin-left: 120px;
   width: 100%;
 }
-.grow2 p{
-     width: 430px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    margin-left: 0px;
-    
+
+.grow2 p {
+  width: 430px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 0px;
+
 }
+
 p {
   margin-top: 40px;
   font-family: 'Open Sans', sans-serif;
@@ -280,11 +282,12 @@ span {
 }
 
 input {
-  width: 100%;
+  width: 50vh;
   border-radius: 5px;
   margin-top: 30px;
   border: 0;
   padding: 10px;
+  
 }
 
 .word1phone {
@@ -292,13 +295,16 @@ input {
 }
 
 .head1 {
-  background-color: hsl(322, 100%, 66%);
+  background-color: hsl(322, 90%, 45%);
   border-radius: 5px;
   width: 100%;
   padding: 10px;
   border: 0;
   margin-top: 30px;
-  margin-left: 25px;
+  margin-left: 45px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 
 
 }
@@ -314,7 +320,7 @@ input {
   display: flex;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (max-width:360px) {
   .header {
     margin: 20px;
   }
@@ -357,7 +363,8 @@ input {
   }
 
   .mock2,
-  .mock3, .footer-top-img {
+  .mock3,
+  .footer-top-img {
     display: none;
 
   }
@@ -378,7 +385,8 @@ input {
     text-align: center;
 
   }
-  .grow2 p{
+
+  .grow2 p {
     margin-top: 10px;
   }
 
@@ -458,7 +466,8 @@ input {
     margin-top: 40px;
     text-align: center;
   }
-  .section3{
+
+  .section3 {
     margin-top: 150px;
   }
 }
@@ -470,32 +479,57 @@ input {
     width: 50%;
     margin-top: 50px;
   }
-    .getStarted2 {
-      padding: 15px;
-      border-radius: 30px;
-      background-color: hsl(322, 86%, 50%);
-      color: white;
-      font-family: 'open sans', sans;
-      margin-left: 80px;
-      margin-top: 3rem;
-      margin-bottom: 1rem;
-      font-size: 15px;
-      width: 60%;
-      border: none;
-    }
-    .mock0{
-      display: block;
-      margin-top: 100px;
-      margin-bottom: -10px;
-    }
-    .newsLetter{
-      float: none;
-      padding-right: 0;
-      margin-left: 0;
-      margin-right:0;
-    }
-    .footer-color{
-      padding-left: 30px;
+
+  .getStarted2 {
+    padding: 15px;
+    border-radius: 30px;
+    background-color: hsl(322, 86%, 50%);
+    color: white;
+    font-family: 'open sans', sans;
+    margin-left: 80px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    width: 60%;
+    border: none;
+  }
+
+  .mock0 {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: -10px;
+  }
+
+  .newsLetter {
+    float: none;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer-color {
+    padding-left: 30px;
+    border: 0;
+  }
+
+  .subs {
+    display: block;
+    width: 100%;
+  }
+  .input{
+    width: 70%;
+  }
+    .head1 {
+      background-color: hsl(322, 82%, 50%);
+      border-radius: 5px;
+      width: 50%;
+      padding: 10px;
       border: 0;
+      margin-top: 20px;
+      margin-left: 160px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+  
     }
 }
